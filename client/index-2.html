@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Post a job position or create your online resume by TheJobs!">
+    <meta name="keywords" content="">
+
+    <title>Find Job</title>
+
+    <!-- Styles -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:100,300,400,500,600,800%7COpen+Sans:300,400,500,600,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.ico">
+  </head>
+
+  <body class="nav-on-header">
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <div class="container">
+
+        <!-- Logo -->
+        <div class="pull-left">
+          <a class="navbar-toggle" href="#" data-toggle="offcanvas"><i class="ti-menu"></i></a>
+
+          <div class="logo-wrapper">
+            <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+          </div>
+
+        </div>
+        <!-- END Logo -->
+
+        <!-- User account -->
+        <div class="pull-right">
+
+          <div class="dropdown user-account">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+              <img src="assets/img/logo-envato.png" alt="avatar">
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href="user-login.html">Авторизоваться</a></li>
+              <li><a href="user-register.html">Зарегистрироваться</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- END User account -->
+
+        <!-- Navigation menu -->
+        <ul class="nav-menu">
+          <li>
+            <a class="active" href="index.html">Главное меню</a>
+          </li>
+          <li>
+            <a href="#">Вакансия</a>
+            <ul>
+              <li><a href="job-list-1.html">Поиск вакансии</a></li>
+              <li><a href="job-add.html">Разместить вакансию</a></li>
+              <li><a href="job-manage.html">Управление вакансией</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Резюме</a>
+            <ul>
+              <li><a href="resume-list.html">Поиск резюме</a></li>
+              <li><a href="resume-add.html">Создать резюме</a></li>
+              <li><a href="resume-manage.html">Управление резюме</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- END Navigation menu -->
+
+      </div>
+    </nav>
+    <!-- END Navigation bar -->
+
+
+    <!-- Site header -->
+    <header class="site-header size-lg text-center" style="background-image: url(assets/img/bg-banner1.jpg)">
+      <div class="container">
+        <div class="col-xs-12">
+          <br><br>
+          <h2>Мы предлагаем <mark>1,259</mark> вакансий прямо сейчас!</h2>
+          <br><br><br>
+          <form class="header-job-search">
+            <div class="input-keyword">
+              <input type="text" class="form-control" placeholder="Название вакансии, навыка или компании">
+            </div>
+
+            <div class="input-location">
+              <input type="text" class="form-control" placeholder="Город, регион или область">
+            </div>
+
+            <div class="btn-search">
+              <button class="btn btn-primary" type="submit">Поиск вакансий</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </header>
+    <!-- END Site header -->
+
+
+    <!-- Main container -->
+    <main>
+
+
+
+      <!-- Recent jobs -->
+      <section class="bg-alt">
+        <div class="container">
+          <header class="section-header">
+            <span>Последние</span>
+            <h2>Недавние вакансии</h2>
+            <p>5 последних размещенных вакансий на сайте</p>
+          </header>
+
+          <div class="row item-blocks-condensed">
+
+            <!-- Job item -->
+            <div class="col-xs-12">
+              <a class="item-block" href="job-detail.html">
+                <header>
+                  <img src="assets/img/logo-google.jpg" alt="">
+                  <div class="hgroup">
+                    <h4>Senior front-end разработчик</h4>
+                    <h5>Google</h5>
+                  </div>
+                  <div class="header-meta">
+                    <span class="location">Menlo park, CA</span>
+                    <span class="label label-success">Полный рабочий день</span>
+                  </div>
+                </header>
+              </a>
+            </div>
+            <!-- END Job item -->
+
+
+            <!-- Job item -->
+            <div class="col-xs-12">
+              <a class="item-block" href="job-detail.html">
+                <header>
+                  <img src="assets/img/logo-linkedin.png" alt="">
+                  <div class="hgroup">
+                    <h4>Разработчик ПО (Entry or Senior)</h4>
+                    <h5>Linkedin</h5>
+                  </div>
+                  <div class="header-meta">
+                    <span class="location">Livermore, CA</span>
+                    <span class="label label-warning">Неполный рабочий день</span>
+                  </div>
+                </header>
+              </a>
+            </div>
+            <!-- END Job item -->
+
+            <!-- Job item -->
+            <div class="col-xs-12">
+              <a class="item-block" href="job-detail.html">
+                <header>
+                  <img src="assets/img/logo-envato.png" alt="">
+                  <div class="hgroup">
+                    <h4>Full Stack Web разработчик</h4>
+                    <h5>Envato</h5>
+                  </div>
+                  <div class="header-meta">
+                    <span class="location">San Francisco, CA</span>
+                    <span class="label label-info">Фриланс</span>
+                  </div>
+                </header>
+              </a>
+            </div>
+            <!-- END Job item -->
+
+            <!-- Job item -->
+            <div class="col-xs-12">
+              <a class="item-block" href="job-detail.html">
+                <header>
+                  <img src="assets/img/logo-facebook.png" alt="">
+                  <div class="hgroup">
+                    <h4>Разработчик Web-приложений</h4>
+                    <h5>Facebook</h5>
+                  </div>
+                  <div class="header-meta">
+                    <span class="location">Lexington, MA</span>
+                    <span class="label label-danger">Стажировка</span>
+                  </div>
+                </header>
+              </a>
+            </div>
+            <!-- END Job item -->
+
+            <!-- Job item -->
+            <div class="col-xs-12">
+              <a class="item-block" href="job-detail.html">
+                <header>
+                  <img src="assets/img/logo-microsoft.jpg" alt="">
+                  <div class="hgroup">
+                    <h4>Sr. SQL Server разработчик</h4>
+                    <h5>Microsoft</h5>
+                  </div>
+                  <div class="header-meta">
+                    <span class="location">Palo Alto, CA</span>
+                    <span class="label label-success">Удаленная работа</span>
+                  </div>
+                </header>
+              </a>
+            </div>
+            <!-- END Job item -->
+
+          </div>
+          <br><br>
+          <p class="text-center"><a class="btn btn-info" href="job-list.html">Посмотреть все вакансии</a></p>
+        </div>
+      </section>
+      <!-- END Recent jobs -->
+
+
+      <!-- Categories -->
+      <section class="bg-alt">
+        <div class="container">
+          <header class="section-header">
+            <span>Категории</span>
+            <h2>Популярные категории</h2>
+            <p>Самые популярные категории</p>
+          </header>
+
+          <div class="category-grid">
+            <a href="#">
+              <i class="fa fa-laptop"></i>
+              <h6>IT-Технологии</h6>
+              <p>Designer, Разработчик, IT Сервисы, Front-end разработчик, Project менеджмент</p>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-line-chart"></i>
+              <h6>Бухгалтерский учет</h6>
+              <p>Финансы, Налоги, Управление заработной платой, Бухгалтер, HR</p>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-medkit"></i>
+              <h6>Медицина</h6>
+              <p>Доктор, Медсестра, Больница, Стоматология, Массажист</p>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-cutlery"></i>
+              <h6>Еда</h6>
+              <p>Ресторан, Сервисы еды, Кофейни, Кассир, Официант</p>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-newspaper-o"></i>
+              <h6>СМИ</h6>
+              <p>Журналистика, Газета, Репортер, Писатель, Кинооператор</p>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-institution"></i>
+              <h6>Государственная служба</h6>
+              <p>Федеральные службы, Законы, HR, Менеджер</p>
+            </a> 
+          </div>
+
+          <p class="text-center"><a class="btn btn-info" href="">Посмотреть все категории</a></p>
+
+        </div>
+      </section>
+      <!-- END Categories -->
+     
+
+    </main>
+    <!-- END Main container -->
+
+    <!-- Back to top button -->
+    <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+    <!-- END Back to top button -->
+
+  </body>
+</html>
